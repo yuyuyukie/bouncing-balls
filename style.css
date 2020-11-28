@@ -1,0 +1,61 @@
+html,
+body {
+    margin: 0;
+}
+
+html {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+    height: inherit;
+}
+
+h1 {
+    font-size: 2rem;
+    letter-spacing: -1px;
+    position: absolute;
+    margin: 0;
+    top: -4px;
+    right: 5px;
+
+    color: transparent;
+    text-shadow: 0 0 4px white;
+}
+#playController{
+    position: absolute;
+    top: 40px;
+    right: 5px;
+    font-size: 2rem;
+    width: 150px;
+    height:60px;
+}
+div {
+    position: absolute;
+    margin: 0;
+    top: 115px;
+    right: 10px;
+    width:200px;
+    font-size: 1.8rem;
+    color: #aaa;
+    text-align: right;
+}
+#remainCount{
+    font-size: 5rem;
+    top: 155px;
+}
+#timer{
+    top:10px;
+    left: 10px;
+    font-size: 2rem;
+    text-align: left;
+}
+#result{
+    position: absolute;
+    font-size: 5rem;
+    top: 40%;
+    width: 100%;
+    text-align: center;   
+}
